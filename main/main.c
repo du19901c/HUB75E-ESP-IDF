@@ -22,7 +22,8 @@ void app_main(void)
     HUB75E_setDisplayBrightness(BrightnessLevel3);
     HUB75E_setDisplayColor(White);
     HUB75E_setDisplayBuffer(sajdah_logo_bitmap);
-    while (1) {
+    while (1)
+    {
         HUB75E_displayBufferPixels();
     }
 }

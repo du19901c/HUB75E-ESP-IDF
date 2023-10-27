@@ -17,7 +17,8 @@
         "*.ipp": "c",
         "defines.h": "c",
         "bq25895.h": "c",
-        "portable.h": "c"
+        "portable.h": "c",
+        "sajdah_logo_bitmap.h": "c"
     },
     "idf.flashType": "UART",
     "cmake.configureOnOpen": false,

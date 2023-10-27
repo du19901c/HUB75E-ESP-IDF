@@ -8,7 +8,8 @@
 #ifndef HUB75E_HAL_H_
 #define HUB75E_HAL_H_
 
-typedef enum {
+typedef enum
+{
 	PinRed1,
 	PinGreen1,
 	PinBlue1,
@@ -24,7 +25,7 @@ typedef enum {
 	PinLATCH,
 	PinOE
 
-}HUB75EPin;
+} HUB75EPin;
 
 void HUB75E_GPIO_Init(void);
 void HUB75E_DelayUs(int us);
