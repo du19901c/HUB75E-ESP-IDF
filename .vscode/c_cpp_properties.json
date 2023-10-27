@@ -1,16 +1,27 @@
 {
     "configurations": [
         {
-            "name": "Mac",
+            "name": "ESP-IDF",
+            "compilerPath": "${config:idf.toolsPath}\\tools\\xtensa-esp32-elf\\esp-12.2.0_20230208\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe",
             "includePath": [
+                "${config:idf.espIdfPath}/components/**",
+                "${config:idf.espIdfPathWin}/components/**",
+                "${config:idf.espAdfPath}/components/**",
+                "${config:idf.espAdfPathWin}/components/**",
+                "${workspaceFolder}/build/config",// add this line for clear portTICK_PERIOD_MS error
                 "${workspaceFolder}/**",
-                "/Users/raeeskattali/esp-idf/**"
+                "C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_adc/include"
             ],
-            "defines": [],
-            "macFrameworkPath": [],
-            "cStandard": "gnu17",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "gcc-x64"
+            "browse": {
+                "path": [
+                    "${config:idf.espIdfPath}/components",
+                    "${config:idf.espIdfPathWin}/components",
+                    "${config:idf.espAdfPath}/components/**",
+                    "${config:idf.espAdfPathWin}/components/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
         }
     ],
     "version": 4
