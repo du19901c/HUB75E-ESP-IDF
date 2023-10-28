@@ -20,7 +20,9 @@
         "portable.h": "c",
         "sajdah_logo_bitmap.h": "c",
         "gpio.h": "c",
-        "hub75e_hal.h": "c"
+        "hub75e_hal.h": "c",
+        "*.inc": "c",
+        "cstring": "c"
     },
     "idf.flashType": "UART",
     "cmake.configureOnOpen": false,
