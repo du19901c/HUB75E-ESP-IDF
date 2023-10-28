@@ -15,8 +15,8 @@
 
 void app_main(void)
 {
-    gpio_set_direction(STATUS_LED_Pin, GPIO_MODE_DEF_OUTPUT);
-    gpio_set_level(STATUS_LED_Pin, 0);
+    gpio_set_direction(STATUS_LED_Pin, GPIO_MODE_OUTPUT);
+    gpio_set_level(STATUS_LED_Pin, 1);
 
     HUB75E_Init();
     HUB75E_setDisplayBrightness(BrightnessLevel3);
