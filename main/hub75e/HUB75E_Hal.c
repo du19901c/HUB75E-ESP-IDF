@@ -8,7 +8,7 @@
 #include "driver/gpio.h"
 
 #define P2_LED_PWR_Pin 1
-#define HUB75E_OE_Pin 2
+#define HUB75E_OE_Pin 0
 #define HUB75E_LATCH_Pin 3
 #define HUB75E_CLK_Pin 4
 #define HUB75E_ADDR_D_Pin 5

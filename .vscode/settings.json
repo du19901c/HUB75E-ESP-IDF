@@ -18,10 +18,16 @@
         "defines.h": "c",
         "bq25895.h": "c",
         "portable.h": "c",
-        "sajdah_logo_bitmap.h": "c"
+        "sajdah_logo_bitmap.h": "c",
+        "gpio.h": "c",
+        "hub75e_hal.h": "c"
     },
     "idf.flashType": "UART",
     "cmake.configureOnOpen": false,
     "idf.port": "/dev/cu.usbserial-1120",
-    "idf.adapterTargetName": "esp32s2"
+    "idf.adapterTargetName": "esp32",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.portWin": "COM3"
 }

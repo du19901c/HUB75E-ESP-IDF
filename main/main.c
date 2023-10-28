@@ -11,7 +11,7 @@
 #include "hub75e/HUB75ELib.h"
 #include "sajdah_logo_bitmap.h"
 
-#define STATUS_LED_Pin 15
+#define STATUS_LED_Pin 2
 
 void app_main(void)
 {

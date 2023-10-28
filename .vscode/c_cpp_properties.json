@@ -8,9 +8,10 @@
                 "${config:idf.espIdfPathWin}/components/**",
                 "${config:idf.espAdfPath}/components/**",
                 "${config:idf.espAdfPathWin}/components/**",
-                "${workspaceFolder}/build/config",// add this line for clear portTICK_PERIOD_MS error
+                "${workspaceFolder}/build/config",
                 "${workspaceFolder}/**",
-                "C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_adc/include"
+                "C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_adc/include",
+                "C:/Espressif/frameworks/esp-idf-v5.1.1/components/fatfs/test_fatfs_host/sdkconfig"
             ],
             "browse": {
                 "path": [
