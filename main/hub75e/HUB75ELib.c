@@ -56,17 +56,17 @@ void HUB75E_clearDisplayBuffer()
 /*Set the Display brightness
  *
  */
-void HUB75E_setDisplayBrightness(HUB75EDisplayBrightnessLevel b)
+void HUB75E_setDisplayBrightness(HUB75EDisplayBrightnessLevel bright)
 {
-	brightness = b;
+	brightness = bright;
 }
 
 /*Set the Display color
  *
  */
-void HUB75E_setDisplayColor(HUB75EDisplayColor c)
+void HUB75E_setDisplayColor(HUB75EDisplayColor color)
 {
-	displayColor = c;
+	displayColor = color;
 }
 
 /*Load the display buffer graphic pixels. Whatever loaded will be displayed by the HUB75E_displayBufferPixels()

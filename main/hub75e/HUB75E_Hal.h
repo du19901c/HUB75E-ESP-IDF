@@ -11,11 +11,11 @@
 typedef enum
 {
 	PinRed1,
-	PinGreen1,
 	PinBlue1,
+	PinGreen1,
 	PinRed2,
-	PinGreen2,
 	PinBlue2,
+	PinGreen2,
 	PinADDRA,
 	PinADDRB,
 	PinADDRC,

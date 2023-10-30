@@ -14,8 +14,8 @@
 typedef enum
 {
 	Red,
-	Green,
 	Blue,
+	Green,
 	Yellow, // RG
 	Pink,	// RB
 	Cyan,	// GB

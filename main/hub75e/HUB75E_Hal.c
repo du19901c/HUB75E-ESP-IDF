@@ -29,11 +29,13 @@ void HUB75E_GPIO_Init(void)
 	esp_rom_gpio_pad_select_gpio(HUB75E_OE_Pin);
 	esp_rom_gpio_pad_select_gpio(HUB75E_LATCH_Pin);
 	esp_rom_gpio_pad_select_gpio(HUB75E_CLK_Pin);
+
+	esp_rom_gpio_pad_select_gpio(HUB75E_ADDR_E_Pin);
 	esp_rom_gpio_pad_select_gpio(HUB75E_ADDR_D_Pin);
 	esp_rom_gpio_pad_select_gpio(HUB75E_ADDR_C_Pin);
 	esp_rom_gpio_pad_select_gpio(HUB75E_ADDR_B_Pin);
 	esp_rom_gpio_pad_select_gpio(HUB75E_ADDR_A_Pin);
-	esp_rom_gpio_pad_select_gpio(HUB75E_ADDR_E_Pin);
+
 	esp_rom_gpio_pad_select_gpio(HUB75E_G2_Pin);
 	esp_rom_gpio_pad_select_gpio(HUB75E_B2_Pin);
 	esp_rom_gpio_pad_select_gpio(HUB75E_R2_Pin);
@@ -45,11 +47,13 @@ void HUB75E_GPIO_Init(void)
 	gpio_set_direction(HUB75E_OE_Pin, GPIO_MODE_DEF_OUTPUT);
 	gpio_set_direction(HUB75E_LATCH_Pin, GPIO_MODE_DEF_OUTPUT);
 	gpio_set_direction(HUB75E_CLK_Pin, GPIO_MODE_DEF_OUTPUT);
+	
+	gpio_set_direction(HUB75E_ADDR_E_Pin, GPIO_MODE_DEF_OUTPUT);
 	gpio_set_direction(HUB75E_ADDR_D_Pin, GPIO_MODE_DEF_OUTPUT);
 	gpio_set_direction(HUB75E_ADDR_C_Pin, GPIO_MODE_DEF_OUTPUT);
 	gpio_set_direction(HUB75E_ADDR_B_Pin, GPIO_MODE_DEF_OUTPUT);
 	gpio_set_direction(HUB75E_ADDR_A_Pin, GPIO_MODE_DEF_OUTPUT);
-	gpio_set_direction(HUB75E_ADDR_E_Pin, GPIO_MODE_DEF_OUTPUT);
+
 	gpio_set_direction(HUB75E_G2_Pin, GPIO_MODE_DEF_OUTPUT);
 	gpio_set_direction(HUB75E_B2_Pin, GPIO_MODE_DEF_OUTPUT);
 	gpio_set_direction(HUB75E_R2_Pin, GPIO_MODE_DEF_OUTPUT);
